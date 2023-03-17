@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="./css/bootstrap-utilities.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>SignUp</title>
+</head>
+
+<body>
+  <div class="navbackgroundmo vh-100 text-center d-flex align-content-center align-items-center">
+
+    <div class="container">
+      <!-- Content here -->
+      <div class="mb-4 ">
+        <h1 class="mb-3">SignUp</h1>
+        <h4 class="mb-3">Join Our Team</h4>
+
+      </div>
+      <!-- our form  -->
+      <form action="">
+        <div class="form-control px-3 py-5 m-auto w-50">
+          <!-- firstname -->
+          
+          <div class="form-floating mb-3 position-relative">
+              <input id="signupyourname" type="text" class="form-control" placeholder="Your Name"
+                aria-label="Your Name"> 
+                   <label for="floatingInput">Your Name</label>
+                <div id="signupyournamecheck"class="invalid-tooltip">
+                Error Input
+              </div>
+            </div>
+
+          <!-- email and password -->
+          <div class="form-floating mb-3 position-relative">
+            <input id="signupemail" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+              <div id="signupemailcheck"class="invalid-tooltip">
+              Error Input
+            </div>
+          </div>
+          <div class="form-floating mb-3 position-relative">
+            <input id="signuppassword" type="password" class="form-control" id="floatingPassword"
+              placeholder="Password">
+            <label for="floatingPassword">Password</label>
+              <div  id="signuppasswordcheck" class="invalid-tooltip">
+              Error Input
+            </div>
+          </div>
+
+          <!-- submit_button -->
+          <div class=" text-center">
+
+
+            <div class="button-selection ">
+              <div class="row">
+                <div class="col-md-4 m-auto">
+                  <input id="btnsignup" class=" btn btn-primary"  type="button" value="Submit">
+                 </div>
+                 <div  id="btnsignupcheck" class="valid-feedback  pt-2 pb-3 fs-5">
+                   Successfully Signed up
+                 </div>
+              </div>
+              <div class="row">
+                <a href="./Login.html">
+                  Already Have Account
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </form>
+
+
+    </div>
+
+  </div>
+  <script src="./js/main.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
